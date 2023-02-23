@@ -3,6 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCSSExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path')
 
+__webpack_base_uri__ = 'http://localhost:8080';
+
 module.exports = {
     entry: path.resolve(__dirname, '../src/script.js'),
     output:
